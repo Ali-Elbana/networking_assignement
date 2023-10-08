@@ -28,8 +28,8 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
 ### <u>1. Get IP for each Board:</u>
 
-**Windows 10** device IP: **192.168.1.9** (I used ipconfig command to get it)
-**Ubuntu** device IP: **192.168.1.14** (I used btop/ifconfig command to get it)
+- **Windows 10** device IP: **192.168.1.9** (I used ipconfig command to get it)
+- **Ubuntu** device IP: **192.168.1.14** (I used btop/ifconfig command to get it)
 
 
 
