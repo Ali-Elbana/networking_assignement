@@ -54,7 +54,14 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
    ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/8979b0df-d490-47ff-a5d3-848e1074ff89)
 
+### 7. Strace ping command and check the main system calls send to Network stack:
 
+   - Some of the main system calls that are related to the network stack are:
+   
+    socket: This system call creates a new socket of a specified type and protocol. For example, the ping command uses socket(AF_INET, SOCK_RAW, IPPROTO_ICMP) to create a raw IPv4 socket for ICMP protocol.
+    bind: This system call assigns a local address to a socket. For example, the ping command uses bind(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 16) to bind the socket 3 to any local IPv4 address and port.
+    sendto: This system call sends a message to a specified destination address on a socket. For example, the ping command uses sendto(3, "\10\0\377\377\1\0\0\0\0\0\0\0\20\21\22\23\24\25\26\27"..., 64, 0, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("8.8.8.8")}, 16) to send an ICMP echo request packet of size 64 bytes to 8.8.8.8 on socket 3.
+    recvfrom: This system call receives a message from a specified source address on a socket. For example, the ping command uses recvfrom(3, "E\0\0T\6\375@\0?\1\t\t\b\b\b\b\n\n\n\n\0\0\f5!\1\1"..., 192, 0, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("8.8.8.8")}, [16]) to receive an ICMP echo reply packet of size 84 bytes from 8.8.8.8 on socket 3.
 
 
 
