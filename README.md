@@ -39,7 +39,6 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
 ### 3. Mointoring ICMP Packets using wireshark:
 
-- 
 
 
 
