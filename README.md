@@ -41,7 +41,7 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
    ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/0190436f-77de-4473-9e52-82bad258b7a4)
 
-
+### 4. Change the status of Ethernet card on PC2 to down using ifconfig command:
 
 
 
