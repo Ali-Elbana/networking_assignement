@@ -18,3 +18,32 @@
 ## Extra
 1. Check if ping command Listen to any sockets using *ss command*.
 2. strace ping command and check the main system calls send to Network stack.
+--------------------------------------------------------
+## My enviroment
+
+I have two devices one of them is running on windows 10 and the other is ubuntu 22.04
+
+--------------------------------------------------------
+## Solution 
+
+### <u>1. Get IP for each Board:</u>
+
+**Windows 10** device IP: **192.168.1.9** (I used ipconfig command to get it)
+**Ubuntu** device IP: **192.168.1.14** (I used btop/ifconfig command to get it)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
