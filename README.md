@@ -43,10 +43,9 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
 ### 4. Change the status of Ethernet card on PC2 to down using ifconfig command:
 
-![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/6ce3043c-b759-4c99-a323-c3b11190e327)
+   ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/6ce3043c-b759-4c99-a323-c3b11190e327)
 
-
-
+### 5. Mointoring Packets using wireshark after making Ethernet card down:
 
 
 
