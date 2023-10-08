@@ -26,14 +26,20 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 --------------------------------------------------------
 ## Solution 
 
-### <u>1. Get IP for each Board:</u>
+### 1. Get IP for each Board:
 
 - **Windows 10** device IP: **192.168.1.9** (I used ipconfig command to get it)
 - **Ubuntu** device IP: **192.168.1.14** (I used btop/ifconfig command to get it)
 
+### 2. Check connectivity between them by sending ICMP packets by using ping command:
 
+- I used **ping** command from the windows machine followed by the IP of the Ubuntu machine ( ip 192.168.1.14 )
 
+  - ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/4b436410-c519-44c6-a9e2-94eccf5c3193)
 
+### 3. Mointoring ICMP Packets using wireshark:
+
+- 
 
 
 
