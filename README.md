@@ -35,7 +35,7 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
 - I used **ping** command from the windows machine followed by the IP of the Ubuntu machine ( ip 192.168.1.14 )
 
-  - ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/4b436410-c519-44c6-a9e2-94eccf5c3193)
+   ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/4b436410-c519-44c6-a9e2-94eccf5c3193)
 
 ### 3. Mointoring ICMP Packets using wireshark:
 
