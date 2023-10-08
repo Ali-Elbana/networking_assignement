@@ -52,6 +52,10 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
 ### 6. Check if ping command Listen to any sockets using ss command:
 
+   ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/8979b0df-d490-47ff-a5d3-848e1074ff89)
+
+
+
 
 
 
