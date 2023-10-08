@@ -45,6 +45,9 @@ I have two devices one of them is running on windows 10 and the other is ubuntu 
 
    ![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/6ce3043c-b759-4c99-a323-c3b11190e327)
 
+![image](https://github.com/Ali-Elbana/networking_assignement/assets/97269796/b7fc6717-af12-40be-bd53-9c97556e7a3f)
+
+
 ### 5. Mointoring Packets using wireshark after making Ethernet card down:
 
 
